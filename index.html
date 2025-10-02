@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveIn Fahrschule - Ihr Weg zum Führerschein</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- n8n Chat Widget CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="20" cy="20" r="18" stroke="url(#gradient)" stroke-width="3"/>
+                        <path d="M15 20C15 20 17 15 20 15C23 15 25 20 25 20C25 20 23 25 20 25C17 25 15 20 15 20Z" fill="url(#gradient)"/>
+                        <defs>
+                            <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                    <span class="logo-text">DriveIn</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Start</a></li>
+                    <li><a href="#services">Leistungen</a></li>
+                    <li><a href="#about">Über uns</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+                <button class="nav-toggle" id="navToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="title-line">Ihr Weg zum</span>
+                        <span class="title-highlight">Führerschein</span>
+                    </h1>
+                    <p class="hero-subtitle">Moderne Fahrausbildung mit Erfahrung, Kompetenz und Leidenschaft. Wir begleiten Sie sicher durch alle Klassen.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Jetzt anmelden</a>
+                        <a href="#services" class="btn btn-secondary">Mehr erfahren</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">2500+</span>
+                            <span class="stat-label">Erfolgreiche Schüler</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">95%</span>
+                            <span class="stat-label">Erfolgsquote</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Jahre Erfahrung</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">🚗</div>
+                        <div class="card-text">
+                            <div class="card-title">PKW Klasse B</div>
+                            <div class="card-subtitle">Am beliebtesten</div>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">🏍️</div>
+                        <div class="card-text">
+                            <div class="card-title">Motorrad</div>
+                            <div class="card-subtitle">A, A1, A2</div>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">🚚</div>
+                        <div class="card-text">
+                            <div class="card-title">LKW & Bus</div>
+                            <div class="card-subtitle">Professionell</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Unsere Leistungen</span>
+                <h2 class="section-title">Alle Führerscheinklassen unter einem Dach</h2>
+                <p class="section-subtitle">Professionelle Ausbildung für jeden Bedarf</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#667eea" opacity="0.1"/>
+                            <path d="M14 24L20 30L34 18" stroke="#667eea" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Klasse B - PKW</h3>
+                    <p class="service-description">Der klassische Autoführerschein. Moderne Fahrzeuge und flexible Fahrstunden für Ihren Erfolg.</p>
+                    <ul class="service-features">
+                        <li>Theorieunterricht online & vor Ort</li>
+                        <li>Moderne Fahrzeugflotte</li>
+                        <li>Flexible Terminvereinbarung</li>
+                    </ul>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="featured-badge">Beliebt</div>
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#667eea" opacity="0.1"/>
+                            <circle cx="24" cy="24" r="10" stroke="#667eea" stroke-width="3"/>
+                            <path d="M24 14V24L30 28" stroke="#667eea" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Intensivkurse</h3>
+                    <p class="service-description">Schnell zum Führerschein! Kompakte Ausbildung in kurzer Zeit mit garantiertem Prüfungstermin.</p>
+                    <ul class="service-features">
+                        <li>Führerschein in 2 Wochen</li>
+                        <li>Garantierter Prüfungstermin</li>
+                        <li>Tägliche Fahrstunden</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#667eea" opacity="0.1"/>
+                            <path d="M16 20L24 28L32 20" stroke="#667eea" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Motorrad A, A1, A2</h3>
+                    <p class="service-description">Zweirad-Freiheit erleben. Von der 125er bis zur offenen Klasse - wir machen Sie fit.</p>
+                    <ul class="service-features">
+                        <li>Alle Motorradklassen</li>
+                        <li>Eigene Schutzkleidung verfügbar</li>
+                        <li>Erfahrene Motorrad-Fahrlehrer</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#667eea" opacity="0.1"/>
+                            <path d="M18 24H30M24 18V30" stroke="#667eea" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Berufskraftfahrer</h3>
+                    <p class="service-description">LKW & Bus Ausbildung für Ihre berufliche Zukunft. C, CE, D, DE Klassen.</p>
+                    <ul class="service-features">
+                        <li>Berufskraftfahrer-Qualifikation</li>
+                        <li>Modulare Weiterbildung</li>
+                        <li>Ladungssicherung</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#667eea" opacity="0.1"/>
+                            <path d="M24 34C29.5228 34 34 29.5228 34 24C34 18.4772 29.5228 14 24 14C18.4772 14 14 18.4772 14 24C14 29.5228 18.4772 34 24 34Z" stroke="#667eea" stroke-width="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Auffrischung</h3>
+                    <p class="service-description">Lange nicht gefahren? Wir bringen Sie wieder sicher auf die Straße.</p>
+                    <ul class="service-features">
+                        <li>Individuelle Fahrstunden</li>
+                        <li>Keine Prüfung nötig</li>
+                        <li>Vertrauensvolle Atmosphäre</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <rect width="48" height="48" rx="12" fill="#667eea" opacity="0.1"/>
+                            <path d="M16 24L22 30L32 18" stroke="#667eea" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Anhänger BE</h3>
+                    <p class="service-description">Erweitern Sie Ihre Möglichkeiten mit der Anhängerklasse BE.</p>
+                    <ul class="service-features">
+                        <li>Rangiertraining</li>
+                        <li>Sicherheitsschulung</li>
+                        <li>Praxisorientierte Ausbildung</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <div class="image-placeholder">
+                            <svg width="300" height="400" viewBox="0 0 300 400">
+                                <defs>
+                                    <linearGradient id="aboutGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.8" />
+                                        <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.8" />
+                                    </linearGradient>
+                                </defs>
+                                <rect width="300" height="400" rx="20" fill="url(#aboutGradient)"/>
+                                <circle cx="150" cy="120" r="50" fill="white" opacity="0.3"/>
+                                <rect x="75" y="200" width="150" height="15" rx="7.5" fill="white" opacity="0.3"/>
+                                <rect x="50" y="235" width="200" height="15" rx="7.5" fill="white" opacity="0.3"/>
+                                <rect x="75" y="270" width="150" height="15" rx="7.5" fill="white" opacity="0.3"/>
+                            </svg>
+                        </div>
+                        <div class="experience-badge">
+                            <span class="experience-number">15+</span>
+                            <span class="experience-text">Jahre<br>Erfahrung</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <span class="section-tag">Über uns</span>
+                    <h2 class="section-title">Ihre vertrauensvolle Fahrschule seit 2008</h2>
+                    <p class="about-description">
+                        Bei DriveIn steht Ihre Sicherheit und Ihr Erfolg im Mittelpunkt. Mit über 15 Jahren Erfahrung 
+                        haben wir bereits mehr als 2.500 Fahrschülern zum Führerschein verholfen.
+                    </p>
+                    <p class="about-description">
+                        Unser Team besteht aus hochqualifizierten, geduldigen Fahrlehrern, die mit modernster 
+                        Technik und bewährten Lehrmethoden arbeiten. Wir legen Wert auf eine entspannte, aber 
+                        professionelle Lernatmosphäre.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">
+                                <h4>Qualifizierte Fahrlehrer</h4>
+                                <p>Regelmäßig fortgebildet und zertifiziert</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">
+                                <h4>Moderne Fahrzeugflotte</h4>
+                                <p>Neueste Modelle mit aktueller Sicherheitstechnik</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">✓</div>
+                            <div class="feature-text">
+                                <h4>Flexible Zeiten</h4>
+                                <p>Auch abends und am Wochenende</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Kontakt</span>
+                <h2 class="section-title">Starten Sie jetzt Ihre Fahrausbildung</h2>
+                <p class="section-subtitle">Wir freuen uns auf Sie!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">📍</div>
+                        <h3>Adresse</h3>
+                        <p>Hauptstraße 123<br>10115 Berlin</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">📞</div>
+                        <h3>Telefon</h3>
+                        <p>+49 30 12345678<br>Mo-Fr: 9:00 - 18:00 Uhr</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">✉️</div>
+                        <h3>E-Mail</h3>
+                        <p>info@drivein-fahrschule.de<br>Wir antworten innerhalb von 24h</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">⏰</div>
+                        <h3>Öffnungszeiten</h3>
+                        <p>Mo-Fr: 9:00 - 18:00 Uhr<br>Sa: 10:00 - 14:00 Uhr</p>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-Mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="license">Gewünschte Führerscheinklasse</label>
+                            <select id="license" name="license" required>
+                                <option value="">Bitte wählen</option>
+                                <option value="b">Klasse B - PKW</option>
+                                <option value="a">Klasse A - Motorrad</option>
+                                <option value="be">Klasse BE - Anhänger</option>
+                                <option value="c">Klasse C - LKW</option>
+                                <option value="d">Klasse D - Bus</option>
+                                <option value="other">Sonstiges</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Nachricht</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Nachricht senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Container (Ready for n8n integration) -->
+    <div id="chatbot-container" class="chatbot-container">
+        <!-- Your n8n chatbot will be embedded here -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="18" stroke="white" stroke-width="3"/>
+                            <path d="M15 20C15 20 17 15 20 15C23 15 25 20 25 20C25 20 23 25 20 25C17 25 15 20 15 20Z" fill="white"/>
+                        </svg>
+                        <span>DriveIn Fahrschule</span>
+                    </div>
+                    <p class="footer-description">Ihr vertrauensvoller Partner für alle Führerscheinklassen in Berlin.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Start</a></li>
+                        <li><a href="#services">Leistungen</a></li>
+                        <li><a href="#about">Über uns</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">PKW Klasse B</a></li>
+                        <li><a href="#services">Motorrad</a></li>
+                        <li><a href="#services">Intensivkurse</a></li>
+                        <li><a href="#services">Berufskraftfahrer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Kontakt</h4>
+                    <ul class="footer-links">
+                        <li>Hauptstraße 123</li>
+                        <li>10115 Berlin</li>
+                        <li>+49 30 12345678</li>
+                        <li>info@drivein-fahrschule.de</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DriveIn Fahrschule. Alle Rechte vorbehalten.</p>
+                <div class="footer-legal">
+                    <a href="#">Impressum</a>
+                    <a href="#">Datenschutz</a>
+                    <a href="#">AGB</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <!-- n8n Chat Widget Script -->
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+        createChat({
+            webhookUrl: 'https://brandilyst-ug.app.n8n.cloud/webhook/64f02e4e-35fb-411d-8369-76ce938e029a/chat',
+            mode: 'window',
+            loadPreviousSession: true,
+            showWelcomeScreen: true,
+            defaultLanguage: 'de',
+            initialMessages: [
+                'Hallo! 👋',
+                'Willkommen bei DriveIn Fahrschule! Wie kann ich Ihnen heute helfen?'
+            ],
+            i18n: {
+                de: {
+                    title: 'Hallo! 👋',
+                    subtitle: 'Starten Sie einen Chat. Wir sind 24/7 für Sie da!',
+                    footer: 'DriveIn Fahrschule',
+                    getStarted: 'Neue Unterhaltung',
+                    inputPlaceholder: 'Ihre Frage eingeben...'
+                }
+            }
+        });
+    </script>
+</body>
+</html>
+
