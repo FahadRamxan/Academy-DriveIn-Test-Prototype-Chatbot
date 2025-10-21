@@ -883,17 +883,7 @@ body {
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4) !important;
 }
 
- /* Hide n8n branding */
-    [id^="n8n-chat"] .poweredBy,
-    [id^="n8n-chat"] [class*="poweredBy"],
-    [id^="n8n-chat"] [class*="powered-by"],
-    #n8n-chat .poweredBy,
-    #n8n-chat-container .poweredBy {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        height: 0 !important;
-        overflow: hidden !important;
+
 
 /* Footer */
 .footer {
